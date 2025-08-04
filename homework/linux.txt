@@ -1,0 +1,48 @@
+linux@[main ?]>  cat selected.txt commands.txt
+30 processes.txt
+14:root         221  0.0  0.4  30140 18048 ?        Ss   Aug04   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+20:root         260  0.0  0.5 107164 21376 ?        Ssl  Aug04   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+24:root         371  0.0  0.1   7524  4608 pts/1    Ss   Aug04   0:00 /bin/login -f
+  292  mkdir nowy_katalog
+  293  touch processes.txt
+  294  ps aux
+  295  ps aux > processes.txt
+  296  cat processes.txt
+  297  clear
+  298  cp processes.txt copy.txt
+  299  mkdir backup
+  300  mv copy.txt backup/
+  301  wc --help
+  302  clear
+  303  cat processes.txt
+  304  wc -l processes.txt
+  305  wc processes.txt
+  306  wc -l processes.txt > selected.txt
+  307  cat selected.txt
+  308  grep --help
+  309  grep -n '/bin' processes.txt
+  310  grep -qn '/bin' processes.txt
+  311  grep -on '/bin' processes.txt
+  312  grep -c '/bin' processes.txt
+  313  grep -nc '/bin' processes.txt
+  314  grep -cn '/bin' processes.txt
+  315  grep -n '/bin' processes.txt
+  316  grep -no '/bin' processes.txt
+  317  cat selected.txt
+  318  cat processes.txt
+  319  grep -no '/bin' processes.txt
+  320  grep -n '/bin' processes.txt
+  321  grep -n '/bin' processes.txt > selected.txt
+  322  cat selected.txt
+  323  wc -l processes.txt > selected.txt
+  324  grep -n '/bin' processes.txt >> selected.txt
+  325  cat selected.txt
+  326  history
+  327  tail --help
+  328  man tail
+  329  man tail --line
+  330  history > tail --lines=+34
+  331  history | tail --lines=+34
+  332  history
+  333  history | tail -38
+linux@[main ?]>
