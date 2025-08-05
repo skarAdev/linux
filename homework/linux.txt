@@ -45,4 +45,6 @@ linux@[main ?]>  cat selected.txt commands.txt
   331  history | tail --lines=+34
   332  history
   333  history | tail -38
+  334  history | tail -n 39 > commands.txt
 linux@[main ?]>
+
